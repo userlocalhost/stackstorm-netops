@@ -1,0 +1,8 @@
+---
+name: net_ops
+description: 'An integrated pack to operate network appliance'
+version: 0.1.0
+author: Hiroyasu OHYAMA
+email: user.localhost2000@gmail.com
+python_versions:
+  - "3"

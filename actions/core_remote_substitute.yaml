@@ -1,0 +1,25 @@
+---
+name: core_remote_substitute
+pack: net_ops
+runner_type: python-script
+description: An action to connect network appliance
+enabled: true
+entry_point: core_remote_substitute.py
+parameters:
+  host:
+    type: string
+    description: Hostname or IP address to connect to the appliance
+    required: true
+  cmd:
+    type: string
+    description: Command to run at target host after connecting
+    required: true
+  username:
+    type: string
+    description: Username used to log in
+  password:
+    type: string
+    description: Password used to log in
+  device_type:
+    type: string
+    description: "Plz see: https://ktbyers.github.io/netmiko/docs/netmiko/index.html"
